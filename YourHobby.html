@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Your Hobby</title>
-  <style> h1  { background-color: orange}
-  pre {font-family: "Times New Roman"}
-  body {background-color: cyan}
-  form {background-color: white}</style>
 </head>
 <body>
 <form action="YourHobby.html" method="get">
-  <h1><span style="color: white">Your Hobby</span></h1>
-  <pre>
-    <span style="color: blue"> Họ và tên </span><input type="text" name="yourname"size="15"><br>
-          <span style="color: blue"> Email</span> <input type="text" name="email" size="15"><br>
-    <span style="color: blue"> Sở thích</span>  <span style="color: orange"> <label><input name="hobby" value="sport"type="checkbox">Thể thao</label><label><input name="hobby" value="music"type="checkbox">Âm nhạc</label><label><input name="hobby" value="reading"type="checkbox">Đọc sách</label>
-                     <label><input name="hobby" value="web surfing"type="checkbox">Lướt web</label><label><input name="hobby" value="game"type="checkbox">Chơi gane</label><label><input name="hobby" value="film"type="checkbox">Điện ảnh</label>
-                     <label><input name="hobby" value="travel"type="checkbox">Du lịch</label></span>
-            <input type="button" name="btSubmit" value="Gửi thông tin"> <input type="button" name="btReset" value="Nhập lại">
-  </pre>
+    <h1 style="background-color: orange;color: white; text-align: center">Your Hobby</h1>
+    <pre>
+        <span style="color: blue"> Họ và tên </span><input name="yourname" size="15" type="text"><br>
+        <span style="color: blue"> Email    </span> <input name="email" size="15" type="text"><br>
+        <span style="color: blue"> Sở thích</span><span style="color: orange"> <label><input name="hobby" type="checkbox" value="sport">Thể thao</label><label><input name="hobby" type="checkbox" value="music">Âm nhạc</label><label><input name="hobby" type="checkbox" value="reading">Đọc sách</label><br>
+                  <label><input name="hobby" type="checkbox" value="web surfing">Lướt web</label><label><input name="hobby" type="checkbox" value="game">Chơi gane</label><label><input name="hobby" type="checkbox" value="film">Điện ảnh</label><br>
+                  <label><input name="hobby" type="checkbox" value="travel">Du lịch</label></span><br>
+                <input name="btSubmit" type="button" value="Gửi thông tin"> <input name="btReset" type="button" value="Nhập lại">
+    </pre>
 </form>
 </body>
 </html>
