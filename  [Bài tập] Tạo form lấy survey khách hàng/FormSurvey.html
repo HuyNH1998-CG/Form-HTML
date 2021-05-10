@@ -8,11 +8,13 @@
             border-collapse: collapse;
             width: 100%;
         }
+
         td, th {
             border: 1px solid #dddddd;
             text-align: left;
             padding: 8px;
         }
+
         tr:nth-child(odd) {
             background-color: #dddddd;
         }
@@ -43,7 +45,7 @@
         <input type="radio" name="gender" value="Female"/>Female <br>
         <input type="radio" name="gender" value="Nonbinary"/>Nonbinary <br>
         <input type="radio" name="gender" value="Other"/>Other <br>
-        <input type="text" name="gender" /><br>
+        <input type="text" name="gender"/><br>
         Which or the following product have your purchased in the last 2 months. Please check all that apply <br>
         <input type="checkbox" name="product" value="product 1"/>Product 1 <br>
         <input type="checkbox" name="product" value="product 2"/>Product 2 <br>
@@ -54,40 +56,40 @@
         <input type="radio" name="time" value="Monthly"/>Monthly <br>
         What would you pay for the new product? <br>
         $ <input type="text" name="cash"> . <input type="text" name="cash+"><br>
-        <pre>      Dollars                      Cents</pre>
+    <pre>      Dollars                      Cents</pre>
     <br>
-        What features would you like to see in the new product <br>
+    What features would you like to see in the new product <br>
     <textarea name="feature" cols="30" rows="10"></textarea><br>
-        Please rate your level of agreement with the following statements. <br>
+    Please rate your level of agreement with the following statements. <br>
     <table>
-    <tr>
-        <th></th>
-        <th style="text-align: center ; width: 300px">Strongly Disagree</th>
-        <th style="text-align: center ; width: 300px">Disagree</th>
-        <th style="text-align: center ; width: 300px">Agree</th>
-        <th style="text-align: center ; width: 300px">Strongly Agree</th>
-    </tr>
-    <tr>
-        <td>Our Product are priced fairly</td>
-        <td style="text-align: center"><input type="radio" value="Strongly Disagree" name="agreement"/><br>1</td>
-        <td style="text-align: center"><input type="radio" name="agreement" value="Disagree" /><br>2</td>
-        <td style="text-align: center"><input type="radio" value="Agree" name="agreement"/><br>3</td>
-        <td style="text-align: center"><input type="radio" name="agreement" value="Strongly Agree"/><br>4</td>
-    </tr>
         <tr>
-        <td>Our Product are high quality</td>
-        <td style="text-align: center"><input type="radio" value="Strongly Disagree" name="agreement2"/><br>1</td>
-        <td style="text-align: center"><input type="radio" name="agreement2" value="Disagree" /><br>2</td>
-        <td style="text-align: center"><input type="radio" value="Agree" name="agreement2"/><br>3</td>
-        <td style="text-align: center"><input type="radio" name="agreement2" value="Strongly Agree"/><br>4</td>
-    </tr>
+            <th></th>
+            <th style="text-align: center ; width: 300px">Strongly Disagree</th>
+            <th style="text-align: center ; width: 300px">Disagree</th>
+            <th style="text-align: center ; width: 300px">Agree</th>
+            <th style="text-align: center ; width: 300px">Strongly Agree</th>
+        </tr>
         <tr>
-        <td>You would recommend our product to a friend or coworker</td>
-        <td style="text-align: center"><input type="radio" value="Strongly Disagree" name="agreement3"/><br>1</td>
-        <td style="text-align: center"><input type="radio" name="agreement3" value="Disagree" /><br>2</td>
-        <td style="text-align: center"><input type="radio" value="Agree" name="agreement3"/><br>3</td>
-        <td style="text-align: center"><input type="radio" name="agreement3" value="Strongly Agree"/><br>4</td>
-    </tr>
+            <td>Our Product are priced fairly</td>
+            <td style="text-align: center"><input type="radio" value="Strongly Disagree" name="agreement"/><br>1</td>
+            <td style="text-align: center"><input type="radio" name="agreement" value="Disagree"/><br>2</td>
+            <td style="text-align: center"><input type="radio" value="Agree" name="agreement"/><br>3</td>
+            <td style="text-align: center"><input type="radio" name="agreement" value="Strongly Agree"/><br>4</td>
+        </tr>
+        <tr>
+            <td>Our Product are high quality</td>
+            <td style="text-align: center"><input type="radio" value="Strongly Disagree" name="agreement2"/><br>1</td>
+            <td style="text-align: center"><input type="radio" name="agreement2" value="Disagree"/><br>2</td>
+            <td style="text-align: center"><input type="radio" value="Agree" name="agreement2"/><br>3</td>
+            <td style="text-align: center"><input type="radio" name="agreement2" value="Strongly Agree"/><br>4</td>
+        </tr>
+        <tr>
+            <td>You would recommend our product to a friend or coworker</td>
+            <td style="text-align: center"><input type="radio" value="Strongly Disagree" name="agreement3"/><br>1</td>
+            <td style="text-align: center"><input type="radio" name="agreement3" value="Disagree"/><br>2</td>
+            <td style="text-align: center"><input type="radio" value="Agree" name="agreement3"/><br>3</td>
+            <td style="text-align: center"><input type="radio" name="agreement3" value="Strongly Agree"/><br>4</td>
+        </tr>
     </table>
     <input type="button" name="btSubmit" value="Submit">
 </form>
