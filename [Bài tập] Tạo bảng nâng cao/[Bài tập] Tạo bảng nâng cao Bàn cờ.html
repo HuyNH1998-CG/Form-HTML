@@ -4,14 +4,6 @@
     <meta charset="UTF-8">
     <title>Bàn cờ</title>
     <style>
-        .white {
-            background: white;
-        }
-
-        .black {
-            background: black;
-        }
-
         td {
             height: 50px;
             width: 50px;
@@ -20,10 +12,29 @@
         .orange {
             background: orange
         }
+        tr:nth-child(even) td:nth-child(even) {
+            background: white;
+        }
+        tr:nth-child(even) td:nth-child(odd) {
+            background: black;
+        }
+        tr:nth-child(odd) td:nth-child(even) {
+            background: black;
+        }
+        tr:nth-child(odd) td:nth-child(odd) {
+            background: white;
+        }
+        tr {
+            color: red;
+        }
+        table {
+            margin-top: 25%;
+            margin-bottom: 25%;
+        }
     </style>
 </head>
 <body class="orange">
-    <table style="text-align: center;" cellpadding="0" cellspacing="0">
+    <table style="text-align: center;" cellpadding="0" cellspacing="0" align="center">
         <tr>
             <td></td>
             <td>1</td>
